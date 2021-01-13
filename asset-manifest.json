@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_ws_wiliot/static/css/main.b6d028f1.chunk.css",
-    "main.js": "/react_ws_wiliot/static/js/main.eda35f2f.chunk.js",
-    "main.js.map": "/react_ws_wiliot/static/js/main.eda35f2f.chunk.js.map",
+    "main.js": "/react_ws_wiliot/static/js/main.e6add27c.chunk.js",
+    "main.js.map": "/react_ws_wiliot/static/js/main.e6add27c.chunk.js.map",
     "runtime-main.js": "/react_ws_wiliot/static/js/runtime-main.47b9e566.js",
     "runtime-main.js.map": "/react_ws_wiliot/static/js/runtime-main.47b9e566.js.map",
     "static/js/2.74684586.chunk.js": "/react_ws_wiliot/static/js/2.74684586.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.47b9e566.js",
     "static/js/2.74684586.chunk.js",
     "static/css/main.b6d028f1.chunk.css",
-    "static/js/main.eda35f2f.chunk.js"
+    "static/js/main.e6add27c.chunk.js"
   ]
 }
