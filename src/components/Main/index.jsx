@@ -138,11 +138,11 @@ export default class Main extends React.Component {
               <Tooltip />
               <Area type="monotoneX" dataKey="ID1" stroke="#002df4" strokeWidth={2} 
                     fillOpacity={1} fill="url(#colorUv)"
-                    animationDuration={700} animationEasing="ease-in-out"
+                    animationDuration={750} animationEasing="ease-in-out"
               />
               <Area type="monotoneX" dataKey="ID2" stroke="#b100ba" strokeWidth={2} 
                     fillOpacity={1} fill="url(#colorPv)" 
-                    animationDuration={700} animationEasing="ease-in-out"
+                    animationDuration={750} animationEasing="ease-in-out"
               />
             </AreaChart>
           </ResponsiveContainer>
@@ -153,6 +153,7 @@ export default class Main extends React.Component {
     );
   }
 };
+
 
 // <LineChart
 //   data={this.state.graphArr}
