@@ -4,7 +4,7 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area,
 } from 'recharts';
 
-import './display.css';
+import './main.css';
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -117,7 +117,7 @@ export default class Main extends React.Component {
           <ResponsiveContainer height={400} debounce={1}>
             <AreaChart
               data={this.state.graphArr}
-              margin={{ top: 20, right: 0, left: 0, bottom: 5 }}
+              margin={{ top: 20, right: 0, left: 10, bottom: 5 }}
             >
               <defs>
                 <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -131,7 +131,7 @@ export default class Main extends React.Component {
               </defs>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="legend" />
-              <YAxis label={{ value: 'Data', angle: -90, offset: 10, position: 'insideLeft', 
+              <YAxis label={{ value: 'Data', angle: -90, offset: 0, position: 'insideLeft', 
                      fontSize: 25, fontWeight: 'bold' }} 
               />
               <Legend iconSize={20} />
