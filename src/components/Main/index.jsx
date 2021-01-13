@@ -132,7 +132,7 @@ export default class Main extends React.Component {
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="legend" />
               <YAxis label={{ value: 'Data', angle: -90, offset: 0, position: 'insideLeft', 
-                     fontSize: 25, fontWeight: 'bold' }} 
+                     fontSize: 26, fontWeight: 'bold' }} 
               />
               <Legend iconSize={20} />
               <Tooltip />
