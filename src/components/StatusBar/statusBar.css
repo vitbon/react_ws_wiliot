@@ -1,0 +1,38 @@
+:root {
+  --primary: #000;
+  --slave: #666;
+  --background: #eee;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 26px;
+  position: fixed;
+  padding: 3px 15px 3px 10px;
+  background-color: var(--background);
+}
+
+footer span {
+  font-size: 18px;
+  padding-right: 5px;
+  color: var(--slave);
+}
+
+.primary {
+  padding-right: 5px;
+  color: var(--primary);
+}
+
+.good {
+  color: var(--primary);
+}
+
+.fail {
+  color: var(--warning);
+}
