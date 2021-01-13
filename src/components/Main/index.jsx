@@ -63,7 +63,7 @@ export default class Main extends React.Component {
           }});
         else
           this.setState({status: {...this.state.status, 
-            info: 'The connection was lost', 
+            info: 'Disconnect', 
             error: true
           }});
     };
